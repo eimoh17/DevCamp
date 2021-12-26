@@ -1,6 +1,6 @@
 class ApplicationController < ActionController::Base
 	include SetSource
-
+	include DefaultPageContent
 	#before_action :set_source
 
 	#def set_source
